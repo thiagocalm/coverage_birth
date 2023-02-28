@@ -10,8 +10,8 @@ library(tidyverse)
 
 # Import data
 
-load("./Trabalho Final/data/obitos_2010_idade_sexo_uf.RData")
-load("./Trabalho Final/data/obitos_2000_idade_sexo_uf.RData")
+load("./data/obitos_2010_idade_sexo_uf.RData")
+load("./data/obitos_2000_idade_sexo_uf.RData")
 
 ### Teste para BR
 
@@ -112,13 +112,13 @@ obitos <- M  |>
   filter(!is.na(SEXO) & !is.na(GRUPO_ETARIO)) |>
   select(ANO, UF, SEXO, GRUPO_ETARIO, OBITOS = OBITOS_I)
 
-save(obitos, file = "./Trabalho Final/data/obitos_idade_sexo_uf_tratados.RData")
+save(obitos, file = "./data/obitos_idade_sexo_uf_tratados.RData")
 
 
 # Nascidos-vivos -------------------------------------------------------------
 
-load("./Trabalho Final/data/nascimentos_2010_idade_sexo_uf.RData")
-load("./Trabalho Final/data/nascimentos_2000_idade_sexo_uf.RData")
+load("./data/nascimentos_2010_idade_sexo_uf.RData")
+load("./data/nascimentos_2000_idade_sexo_uf.RData")
 
 ### Teste para BR
 
@@ -219,4 +219,4 @@ nascimentos <- M  |>
   filter(!is.na(SEXO) & !is.na(GRUPO_ETARIO)) |>
   select(ANO, UF, SEXO, GRUPO_ETARIO, NASCIMENTOS = NASCIMENTOS_I)
 
-save(nascimentos, file = "./Trabalho Final/data/nascimentos_idade_sexo_uf_tratados.RData")
+save(nascimentos, file = "./data/nascimentos_idade_sexo_uf_tratados.RData")

@@ -47,8 +47,8 @@ dados_sim_10 <- dados_sim_10 |>
   select(-c(DTOBITO, idade)) |>
   select(ANO = ano, UF, SEXO, IDADE)
 
-save(dados_sim_00, file = "./Trabalho Final/data/sim_2000_idade_sexo_uf.RData")
-save(dados_sim_10, file = "./Trabalho Final/data/sim_2010_idade_sexo_uf.RData")
+save(dados_sim_00, file = "./data/sim_2000_idade_sexo_uf.RData")
+save(dados_sim_10, file = "./data/sim_2010_idade_sexo_uf.RData")
 
 ## Tabelas
 
@@ -154,8 +154,8 @@ dados_sinasc_10 <- dados_sinasc_10 |>
          IDADEMAE = as.numeric(IDADEMAE)) |>
   select(ANO = ano, UF, SEXO, IDADEMAE)
 
-save(dados_sinasc_00, file = "./Trabalho Final/data/sinasc_2000_idade_sexo_uf.RData")
-save(dados_sinasc_10, file = "./Trabalho Final/data/sinasc_2010_idade_sexo_uf.RData")
+save(dados_sinasc_00, file = "./data/sinasc_2000_idade_sexo_uf.RData")
+save(dados_sinasc_10, file = "./data/sinasc_2010_idade_sexo_uf.RData")
 
 ## Tabelas
 
@@ -190,7 +190,7 @@ dados_sinasc_00_UF <- dados_sinasc_00 |>
 
 nascimentos_00 <- dados_sinasc_00_BR |> bind_rows(dados_sinasc_00_UF)
 
-save(nascimentos_00, file = "./Trabalho Final/data/nascimentos_2000_idade_sexo_uf.RData")
+save(nascimentos_00, file = "./data/nascimentos_2000_idade_sexo_uf.RData")
 
 # 2010
 
@@ -223,7 +223,7 @@ dados_sinasc_10_UF <- dados_sinasc_10 |>
 
 nascimentos_10 <- dados_sinasc_10_BR |> bind_rows(dados_sinasc_10_UF)
 
-save(nascimentos_10, file = "./Trabalho Final/data/nascimentos_2010_idade_sexo_uf.RData")
+save(nascimentos_10, file = "./data/nascimentos_2010_idade_sexo_uf.RData")
 
 # Dados população residente -----------------------------------------------
 
@@ -250,4 +250,4 @@ pop_UF <- dados_pop |>
 
 pop <- pop_BR |> select(ANO, UF, SEXO, GRUPO_ETARIO, POP) |> bind_rows(pop_UF)
 
-save(pop, file = "./Trabalho Final/data/pop_uf_idade_sexo.RData")
+save(pop, file = "./data/pop_uf_idade_sexo.RData")

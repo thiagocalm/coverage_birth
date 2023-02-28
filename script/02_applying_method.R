@@ -11,9 +11,9 @@ library(brazilmaps)
 
 # Import data -------------------------------------------------------------
 
-load("./Trabalho Final/data/nascimentos_idade_sexo_uf_tratados.RData")
-load("./Trabalho Final/data/obitos_idade_sexo_uf_tratados.RData")
-load("./Trabalho Final/data/pop_uf_idade_sexo.RData")
+load("./data/nascimentos_idade_sexo_uf_tratados.RData")
+load("./data/obitos_idade_sexo_uf_tratados.RData")
+load("./data/pop_uf_idade_sexo.RData")
 
 
 # Handling data for the method application --------------------------------
@@ -843,8 +843,8 @@ estimates_births |>
   labs(
     title = "Grau de cobertura dos nascidos-vivos, por UF e ano dos registros - Brasil (2000-2010), por sexo.",
     subtitle = "Cor clara = Nascimentos ocorridos no ano de 2000. \nCor forte = Nascimentos ocorridos no ano de 2010.",
-    x = "UF",
-    y = "Grau de cobertura dos nascimentos"
+    x = "Grau de cobertura dos nascidos vivos",
+    y = "UF"
   ) +
   # scale_y_continuous(breaks = seq(.4,1.2,.1)) +
   theme_bw() +

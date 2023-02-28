@@ -53,7 +53,7 @@ Avaliar em que medida houve um subrregistro dos nascidos-vivos ocorridos no Bras
 - **Grau de cobertura dos nascidos vivos para Brasil e UFs, por sexo entre 2000 e 2010**:
 
 <p align="center" width="80%">
-    <img width="80%" src="https://github.com/thiagocalm/coverage_birth/blob/master/output/coverage_birth.jpeg">
+    <img width="80%" src="https://github.com/thiagocalm/coverage_birth/blob/master/output/coverage_birth_by_sex.jpeg">
 </p>
 
 - **Razão entre grau de cobertura dos nascidos vivos (2010/2000) para UFs, por sexo**:
