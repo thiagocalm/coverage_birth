@@ -47,7 +47,7 @@ Avaliar em que medida houve um subrregistro dos nascidos-vivos ocorridos no Bras
 - **Grau de cobertura dos óbitos masculinos (como exemplo) por UF e segundo diferentes métodos de distribuição dos óbitos** (*DDM*):
 
 <p align="center" width="80%">
-    <img width="80%" src="https://github.com/thiagocalm/coverage_birth/blob/master/output/https://github.com/thiagocalm/coverage_birth/blob/master/output/coverage_deaths_male.jpeg">
+    <img width="80%" src="https://github.com/thiagocalm/coverage_birth/blob/master/output/coverage_deaths_male.jpeg">
 </p>
 
 - **Grau de cobertura dos nascidos vivos para Brasil e UFs, por sexo entre 2000 e 2010**:
@@ -59,7 +59,7 @@ Avaliar em que medida houve um subrregistro dos nascidos-vivos ocorridos no Bras
 - **Razão entre grau de cobertura dos nascidos vivos (2010/2000) para UFs, por sexo**:
 
 <p align="center" width="80%">
-    <img width="80%" src="https://github.com/thiagocalm/coverage_birth/blob/master/output/coverage_birth.jpeg">
+    <img width="80%" src="https://github.com/thiagocalm/coverage_birth/blob/master/output/coverage_ratio_2010_2000.jpeg">
 </p>
 
 ## Algumas referências de pacotes utilizados
