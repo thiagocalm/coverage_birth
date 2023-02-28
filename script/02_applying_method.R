@@ -932,4 +932,3 @@ estimates_spatial |>
     panel.grid = element_line(color = "#f0f0f0",linewidth = .01),
     # panel.grid = element_line(colour = "grey"),
     panel.background = element_blank())
-
